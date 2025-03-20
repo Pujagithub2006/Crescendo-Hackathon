@@ -1,4 +1,4 @@
-# App for Safe-Routes feature
+# Safe-Routes feature
 
 ## Setup Instructions
 1. Clone the repo
