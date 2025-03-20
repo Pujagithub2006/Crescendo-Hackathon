@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "482649752031",
+    "project_id": "crescendo-safe-routes",
+    "storage_bucket": "crescendo-safe-routes.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482649752031:android:cf9cd791e2bfe132c2446a",
+        "android_client_info": {
+          "package_name": "com.example.feature"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz64YMXSyGPFHz1kPjhUqk2-byeQqZj5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
