@@ -1,10 +1,15 @@
+plugins {
+    id("com.android.application") version "8.1.2" apply false
+    id("org.jetbrains.kotlin.android") version "1.9.0" apply false
+}
+
 buildscript {
     repositories {
         google() // Add Google Maven repository
         mavenCentral() // Add Maven Central
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:8.1.0")
+        classpath("com.android.tools.build:gradle:8.1.2")
         classpath("com.google.gms:google-services:4.3.15") // Add Google services classpath
     }
 }
