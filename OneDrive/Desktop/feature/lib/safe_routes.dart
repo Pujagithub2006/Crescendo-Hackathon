@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:geolocator/geolocator.dart';
+import 'qr_scanner.dart';
+//import 'package:permission_handler/permission_handler.dart';
+
 
 class SafeRoutesScreen extends StatefulWidget {
   const SafeRoutesScreen({super.key});
@@ -104,11 +107,34 @@ class _SafeRoutesScreenState extends State<SafeRoutesScreen> {
               ),
 
       // Floating Action Button
-      floatingActionButton: FloatingActionButton(
-        onPressed: _getUserLocation,
-        backgroundColor: Colors.purple,
-        child: const Icon(Icons.my_location),
-      ),
+      floatingActionButton: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
+        children: [
+          FloatingActionButton(
+              onPressed: _getUserLocation,
+              backgroundColor: Colors.deepPurple,
+              child: Icon(Icons.my_location),
+          ),
+
+          const SizedBox(height: 15),
+
+          FloatingActionButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const QRPage(),
+                    ),
+                );
+              },
+
+              backgroundColor: Colors.indigo,
+              child: Icon(Icons.qr_code),
+          )
+
+        ],
+      )
+
     );
   }
 }
