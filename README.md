@@ -52,5 +52,5 @@ This project is a simple and secure mobile app that marks attendance by verifyin
 
 3) Providing admin-level controls for better monitoring.
 
-=> Note
+=> Note:
 This system prevents proxy attendance and ensures accurate attendance tracking with minimal effort.
