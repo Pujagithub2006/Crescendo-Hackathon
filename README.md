@@ -1,5 +1,5 @@
 # Location and QR Code based Smart Attendance App
-Team VIT Visionaries
+## Team VIT Visionaries
 
 => Overview
 This project is a simple and secure mobile app that marks attendance by verifying the user's location and scanning a class-specific QR code.
