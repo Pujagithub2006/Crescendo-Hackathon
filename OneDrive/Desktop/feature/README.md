@@ -1,4 +1,4 @@
-# Safe-Routes feature
+# Current Location detection
 
 ## Setup Instructions
 1. Clone the repo
